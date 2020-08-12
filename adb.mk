@@ -1,5 +1,5 @@
 # Makefile for adb; from https://heiher.info/2227.html
-SRCDIR:= $(PKG_BUILD_DIR)
+SRCDIR:= .
 VPATH+= $(SRCDIR)/core/adb
 SRCS+= adb.c
 SRCS+= adb_client.c

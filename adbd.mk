@@ -1,7 +1,7 @@
 # Makefile for adbd
 
 
-SRCDIR:= $(PKG_BUILD_DIR)
+SRCDIR:= .
 VPATH+= $(SRCDIR)/core/adbd
 SRCS+=  adb.c
 SRCS+=	backup_service.c

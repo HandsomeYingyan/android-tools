@@ -1,6 +1,6 @@
 # Makefile for fastboot; from https://heiher.info/2227.html
 
-SRCDIR:= $(PKG_BUILD_DIR)
+SRCDIR:= .
 VPATH+= $(SRCDIR)/core/fastboot
 SRCS+= bootimg.c
 SRCS+= engine.c
